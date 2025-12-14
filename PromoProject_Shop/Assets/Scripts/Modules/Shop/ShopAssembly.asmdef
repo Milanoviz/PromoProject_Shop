@@ -1,0 +1,17 @@
+{
+    "name": "ShopAssembly",
+    "rootNamespace": "",
+    "references": [
+        "GUID:973ade7f4949fe04fb1cade867b4bc39",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
