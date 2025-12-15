@@ -3,6 +3,7 @@ using Modules.Core.Services.DebugServices;
 using Modules.Core.Services.DebugServices.Base;
 using Modules.Core.Services.PlayerData;
 using Modules.Core.Services.Wallet;
+using Modules.VIP.Helpers;
 using Modules.VIP.State;
 
 namespace Modules.VIP.DebugService
@@ -17,8 +18,7 @@ namespace Modules.VIP.DebugService
 
         protected override string GetValueText(VIPServiceState state)
         {
-            var durationSeconds = (int)state.DurationTimeSpan.TotalSeconds;
-            return durationSeconds.ToString();
+            return state.DurationTimeSpan.ToPrettyTimeWithLetters();
         }
 
         protected override string GetTitleText()
